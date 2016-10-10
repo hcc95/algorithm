@@ -35,6 +35,23 @@ public class AarryTest {
 		System.out.println("strArr数组的长度：" + strArr.length);
 		//改变books数组变量所引用的数组的第二个元素值。
 		books[1] = "唐僧";
-		System.out.println("names数组的第二个元素是：" + books[1]);	
+		System.out.println("names数组的第二个元素是：" + books[1]);
+		
+		
+		
+		
+		
+		
+		
+		System.out.println("----------------------");
+		
+		//定义一个int[]类型的数组变量
+		int[] iArr = null;
+		//只要不访问iArr的属性和方法，程序完全可以使用该数组变量
+		System.out.println(iArr);
+		//动态初始化数组，数组长度为5
+		iArr = new int[5];
+		//只有当iArr指向有效的数组对象后，下面才可访问iArr的属性
+		System.out.println(iArr.length);
 	}
 }
